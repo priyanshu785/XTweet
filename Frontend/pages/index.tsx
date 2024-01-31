@@ -50,8 +50,7 @@ export default function Home() {
         </div>
          
         <div className="col-span-6 border-r-[1px] border-l-[1px] border-grey">
-       
-          <FeedCard />
+       <FeedCard />
         </div>
         <div className="col-span-3"></div> 
        </div>
