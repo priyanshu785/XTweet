@@ -1,5 +1,6 @@
   
- import React from 'react'
+ import FeedCard from '@/components';
+import React from 'react'
 import { BiHash, BiHomeCircle, BiUser } from 'react-icons/bi';
  import {BsBell, BsBookmark, BsTwitter} from 'react-icons/bs'
 
@@ -48,7 +49,10 @@ export default function Home() {
           </div>
         </div>
          
-        <div className="col-span-6 border-r-[1px] border-l-[1px] border-grey"></div>
+        <div className="col-span-6 border-r-[1px] border-l-[1px] border-grey">
+       
+          <FeedCard />
+        </div>
         <div className="col-span-3"></div> 
        </div>
     </div>
